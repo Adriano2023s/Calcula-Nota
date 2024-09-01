@@ -1,0 +1,14 @@
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\obj\Debug\netcoreapp3.1\CalculaNota.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\obj\Debug\netcoreapp3.1\CalculaNota.AssemblyInfoInputs.cache
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\obj\Debug\netcoreapp3.1\CalculaNota.AssemblyInfo.cs
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\obj\Debug\netcoreapp3.1\CalculaNota.csproj.CoreCompileInputs.cache
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\obj\Debug\netcoreapp3.1\CalculaNota.sourcelink.json
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\bin\Debug\netcoreapp3.1\CalculaNota.exe
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\bin\Debug\netcoreapp3.1\CalculaNota.deps.json
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\bin\Debug\netcoreapp3.1\CalculaNota.runtimeconfig.json
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\bin\Debug\netcoreapp3.1\CalculaNota.runtimeconfig.dev.json
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\bin\Debug\netcoreapp3.1\CalculaNota.dll
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\bin\Debug\netcoreapp3.1\CalculaNota.pdb
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\obj\Debug\netcoreapp3.1\CalculaNota.dll
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\obj\Debug\netcoreapp3.1\CalculaNota.pdb
+C:\Users\Home\OneDrive\Documentos\Adriano\C#\CalculaNota\CalculaNota\obj\Debug\netcoreapp3.1\CalculaNota.genruntimeconfig.cache

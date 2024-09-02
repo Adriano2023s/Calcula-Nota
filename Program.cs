@@ -6,8 +6,20 @@ namespace CalculaNota
     {
         static void Main(string[] args)
         {
-            Aluno aluno = new Aluno("Adriano", 33, 19, 10);
-            
+            Aluno aluno = new Aluno();
+
+            Console.WriteLine("Digite o nome do aluno \n");
+            aluno.Nome = Console.ReadLine();
+
+            Console.WriteLine($"Digite a nota do aluno: {aluno.Nome}, referente ao primeiro trimestre \n");
+            aluno.N1 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Digite a nota do aluno: {aluno.Nome}, referente ao segundo trimestre \n");
+            aluno.N2 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine($"Digite a nota do aluno: {aluno.Nome}, referente ao terceiro trimestre \n");
+            aluno.N3 = double.Parse(Console.ReadLine());
+
             double notaFinal = aluno.Calculo();
             double notaMinima = 60;
 
@@ -20,6 +32,7 @@ namespace CalculaNota
                 double pontosFaltantes = notaMinima - notaFinal;
                 Console.WriteLine($"O aluno: {aluno.Nome}, foi reprovado! e faltaram para a sua aprovação: {pontosFaltantes}, tente novamente!");
             }
+
         }
     }
 }

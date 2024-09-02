@@ -18,6 +18,11 @@
             N3 = n3;
             }
 
+        public Aluno()
+        {
+
+        }
+
         public double Calculo()
         {
             return CalcularMediaPonderada();

@@ -1,6 +1,6 @@
 ﻿namespace CalculaNota
 {
-    internal class CalculaNota
+    internal class Aluno
     {
         public string Nome;
         public double N1;
@@ -10,7 +10,7 @@
         public double P2 = 35;
         public double P3 = 35;
 
-        public CalculaNota(string nome, double n1, double n2, double n3)
+        public Aluno(string nome, double n1, double n2, double n3)
         {
             Nome = nome;
             N1 = n1;

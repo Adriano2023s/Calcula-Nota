@@ -6,19 +6,19 @@ namespace CalculaNota
     {
         static void Main(string[] args)
         {
-            CalculaNota cn = new CalculaNota("Adriano", 90, 81, 80);
+            Aluno aluno = new Aluno("Adriano", 33, 19, 10);
             
-            double notaFinal = cn.Calculo();
+            double notaFinal = aluno.Calculo();
             double notaMinima = 60;
 
             if (notaFinal >= notaMinima)
             {
-                Console.WriteLine($"Você foi aprovado Sua nota foi de: {notaFinal}!");
+                Console.WriteLine($"O aluno: {aluno.Nome}, obteve a nota: {notaFinal}, e foi aprovado!");
             }
             else
             {
                 double pontosFaltantes = notaMinima - notaFinal;
-                Console.WriteLine($"Você foi reprovado! Faltaram pra sua aprovação: : {pontosFaltantes}");
+                Console.WriteLine($"O aluno: {aluno.Nome}, foi reprovado! e faltaram para a sua aprovação: {pontosFaltantes}, tente novamente!");
             }
         }
     }

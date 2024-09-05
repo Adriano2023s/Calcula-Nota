@@ -7,18 +7,18 @@ namespace CalculaNota
         static void Main(string[] args)
         {
             Aluno aluno = new Aluno();
-
+            
             Console.WriteLine("Digite o nome do aluno \n");
             aluno.Nome = Console.ReadLine();
 
             Console.WriteLine($"Digite a nota do aluno: {aluno.Nome}, referente ao primeiro trimestre \n");
-            aluno.N1 = double.Parse(Console.ReadLine());
+            aluno.Nota1 = double.Parse( Console.ReadLine() );
 
             Console.WriteLine($"Digite a nota do aluno: {aluno.Nome}, referente ao segundo trimestre \n");
-            aluno.N2 = double.Parse(Console.ReadLine());
+            aluno.Nota2 = double.Parse( Console.ReadLine() );
 
             Console.WriteLine($"Digite a nota do aluno: {aluno.Nome}, referente ao terceiro trimestre \n");
-            aluno.N3 = double.Parse(Console.ReadLine());
+            aluno.Nota3 = double.Parse( Console.ReadLine() );
 
             double notaFinal = aluno.Calculo();
             double notaMinima = 60;

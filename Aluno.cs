@@ -2,21 +2,69 @@
 {
     internal class Aluno
     {
-        public string Nome;
-        public double N1;
-        public double N2;
-        public double N3;
-        public double P1 = 30;
-        public double P2 = 35;
-        public double P3 = 35;
+        private string _Nome;
+        private double _Nota1;
+        private double _Nota2;
+        private double _Nota3;
+        public double P1;
+        public double P2;
+        public double P3;
 
-        public Aluno(string nome, double n1, double n2, double n3)
+        public string Nome
+        {
+            get
+            {
+                return _Nome;
+            }
+            set
+            {
+                _Nome = value;
+            }
+}
+
+        public double Nota1
+        {
+            get
+            {
+                return _Nota1;
+            }
+            set
+            {
+                _Nota1 = value;
+            }
+        }
+
+        public double Nota2
+        {
+            get
+            {
+                return _Nota2;
+            }
+            set
+            {
+                _Nota2 = value;
+            }
+        }
+
+        public double Nota3
+        {
+            get
+            {
+                return _Nota3;
+            }
+            set
+            {
+                _Nota3 = value;
+            }
+        }
+
+        public Aluno(string nome, double nota1, double nota2, double nota3)
         {
             Nome = nome;
-            N1 = n1;
-            N2 = n2;
-            N3 = n3;
-            }
+            Nota1 = nota1;
+            Nota2 = nota2;
+            Nota3 = nota3;
+        }
 
         public Aluno()
         {
@@ -28,9 +76,9 @@
             return CalcularMediaPonderada();
             }
 
-        public double CalcularMediaPonderada()
+        public double CalcularMediaPonderada()  
         {
-            double somaPonderada = (N1 * P1) + (N2 * P2) + (N3 * P3);
+            double somaPonderada = (Nota1 * P1) + (Nota2 * P2) + (Nota3 * P3);
             double somaPesos = P1 + P2 + P3;
             double mediaPonderada = somaPonderada / somaPesos;
             return mediaPonderada;

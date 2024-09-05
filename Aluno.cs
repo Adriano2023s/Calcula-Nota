@@ -2,61 +2,13 @@
 {
     internal class Aluno
     {
-        private string _Nome;
-        private double _Nota1;
-        private double _Nota2;
-        private double _Nota3;
-        public double P1;
-        public double P2;
-        public double P3;
-
-        public string Nome
-        {
-            get
-            {
-                return _Nome;
-            }
-            set
-            {
-                _Nome = value;
-            }
-}
-
-        public double Nota1
-        {
-            get
-            {
-                return _Nota1;
-            }
-            set
-            {
-                _Nota1 = value;
-            }
-        }
-
-        public double Nota2
-        {
-            get
-            {
-                return _Nota2;
-            }
-            set
-            {
-                _Nota2 = value;
-            }
-        }
-
-        public double Nota3
-        {
-            get
-            {
-                return _Nota3;
-            }
-            set
-            {
-                _Nota3 = value;
-            }
-        }
+        public string Nome { get; set; }
+        public double Nota1 { get; set; }
+        public double Nota2 { get; set; }
+       public double Nota3 { get; set; }
+        public double P1 { get; set; }
+        public double P2 { get; set; }
+        public double P3 { get; set; }
 
         public Aluno(string nome, double nota1, double nota2, double nota3)
         {

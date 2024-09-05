@@ -9,7 +9,7 @@ namespace CalculaNota
             Aluno aluno = new Aluno();
             
             Console.WriteLine("Digite o nome do aluno \n");
-            aluno.Nome = Console.ReadLine();
+          aluno.Nome = Console.ReadLine();
 
             Console.WriteLine($"Digite a nota do aluno: {aluno.Nome}, referente ao primeiro trimestre \n");
             aluno.Nota1 = double.Parse( Console.ReadLine() );
